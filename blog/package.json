@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "blog",
+  "description": "It is a blog that provides various contents related to simulation SW provided by EDISON Project(https://www.edison.re.kr).",
+  "version": "1.0.0",
+  "author": "EDISON adm <inojeon@kisti.re.kr>",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.22.20",
+    "gatsby-plugin-google-analytics": "^2.3.3",
+    "gatsby-plugin-manifest": "^2.4.10",
+    "gatsby-plugin-offline": "^3.2.8",
+    "gatsby-plugin-sitemap": "^2.4.4",
+    "gatsby-theme-workspaces": "1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-theme-workspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog-core": "^2.3.5",
+    "@theme-ui/color": "^0.3.1",
+    "@theme-ui/components": "^0.3.1",
+    "@theme-ui/presets": "^0.3.0",
+    "gatsby-plugin-catch-links": "^2.3.4",
+    "gatsby-plugin-feed": "^2.5.4",
+    "gatsby-plugin-mdx": "^1.2.14",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-sharp": "^2.6.10",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-typescript": "^2.4.4",
+    "gatsby-remark-images": "^3.3.9",
+    "gatsby-remark-katex": "^3.3.3",
+    "gatsby-transformer-remark": "^2.8.14",
+    "katex": "^0.11.1",
+    "lodash.kebabcase": "^4.1.1",
+    "mdx-utils": "^0.2.0",
+    "prism-react-renderer": "^1.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-live": "^2.2.2",
+    "rehype-katex": "^3.0.0",
+    "remark-math": "^2.0.1",
+    "theme-ui": "^0.3.1",
+    "typeface-ibm-plex-sans": "^0.0.75"
+  }
+}
