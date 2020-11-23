@@ -34,15 +34,12 @@ const Homepage = ({ posts }: PostsProps) => {
     <Layout>
       <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
         <p sx={{ fontSize: [4, 5, 6], fontWeight: `bold`, color: `heading` }}> Hi.</p> 
-        <p>I'm Lupin - currently teaching "Defense against the Dark Arts" at Hogwarts, Great Britain. I recently published a book called [Those nasty Dementors](https://www.lekoarts.de).</p>
+        <p>EDISON Blog pages.</p>
       </section>
       <Title text="Latest Posts">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>Read all posts</Link>
       </Title>
-      <Listing posts={posts} showTags={false} />
-      <List>
-        <Title text="Projects" />
-      </List>
+      <Listing posts={posts} showTags={true} />
     </Layout>
   )
 }

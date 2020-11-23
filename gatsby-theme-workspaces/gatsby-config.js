@@ -33,8 +33,22 @@ module.exports = (options) => {
                 linkImagesToOriginal: false,
               },
             },
-            `gatsby-remark-katex`],
-          plugins: [ `gatsby-remark-images`,`gatsby-remark-katex` ],
+            `gatsby-remark-katex`,
+            {
+              resolve: `gatsby-remark-embedder`,
+              options: {
+                customTransformers: [
+                  // Your custom transformers
+                ],
+                services: {
+                  // The service-specific options by the name of the service
+                },
+              },
+            },
+          ],
+          plugins: [ `gatsby-remark-responsive-iframe` ],
+          
+//          plugins: [ `gatsby-remark-images`,`gatsby-remark-katex` ],
         }
       },
       `gatsby-plugin-react-helmet`,
